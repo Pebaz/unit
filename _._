@@ -1,0 +1,5 @@
+-- Entrypoint
+init: op._(env.environment)
+{
+    env/return_code = u64[0];
+}
